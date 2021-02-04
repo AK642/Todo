@@ -1,0 +1,9 @@
+.todo_list{
+    text-align: center;
+}
+
+.list_item{
+    list-style-type: none;
+    background-color: rgba(61, 120, 175, 0.411);
+    border-radius: 10px;
+}
