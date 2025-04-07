@@ -20,6 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://AK642.github.io/Todo/",
   "eslintConfig": {
     "extends": [
       "react-app",
