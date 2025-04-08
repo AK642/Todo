@@ -30,7 +30,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: production-file
-          path: ./Todo/build
+          path: ./build
 
   # Deploy Job
   deploy:
