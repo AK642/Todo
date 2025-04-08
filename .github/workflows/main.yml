@@ -41,10 +41,10 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: production-file
-          path: ./Todo/build
+          path: ./build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.KEY }} #this is the key of the access token
-          publish_dir: ./Todo/build
+          publish_dir: ./build
