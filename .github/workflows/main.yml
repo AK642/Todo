@@ -55,6 +55,10 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    types: [closed]    # only when PR is closed (merged or discarded)
+    branches:
+      - master         # target branch must be master
   workflow_dispatch:
     inputs:
       target_env:
