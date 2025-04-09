@@ -49,7 +49,7 @@
 #           github_token: ${{ secrets.KEY }} #this is the key of the access token
 #           publish_dir: ./build
 
-name: Multi-Environment CI/CD
+name: Multi-Environment CI/CD for react Todo
 
 on:
   push:
